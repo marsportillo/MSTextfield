@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4460295B1D9AB178009C3629 /* MSTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460295A1D9AB178009C3629 /* MSTextfield.swift */; };
 		44EF117A1D9AA7D400F2C873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF11791D9AA7D400F2C873 /* AppDelegate.swift */; };
 		44EF117C1D9AA7D400F2C873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF117B1D9AA7D400F2C873 /* ViewController.swift */; };
 		44EF117F1D9AA7D400F2C873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EF117D1D9AA7D400F2C873 /* Main.storyboard */; };
 		44EF11811D9AA7D400F2C873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EF11801D9AA7D400F2C873 /* Assets.xcassets */; };
 		44EF11841D9AA7D400F2C873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EF11821D9AA7D400F2C873 /* LaunchScreen.storyboard */; };
+		44EF118C1D9AA95700F2C873 /* MSTextfield.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44EF118B1D9AA95700F2C873 /* MSTextfield.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4460295A1D9AB178009C3629 /* MSTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSTextfield.swift; sourceTree = "<group>"; };
 		44EF11761D9AA7D400F2C873 /* MSTextfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSTextfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EF11791D9AA7D400F2C873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44EF117B1D9AA7D400F2C873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		44EF11801D9AA7D400F2C873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44EF11831D9AA7D400F2C873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44EF11851D9AA7D400F2C873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EF118B1D9AA95700F2C873 /* MSTextfield.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSTextfield.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				44EF11801D9AA7D400F2C873 /* Assets.xcassets */,
 				44EF11821D9AA7D400F2C873 /* LaunchScreen.storyboard */,
 				44EF11851D9AA7D400F2C873 /* Info.plist */,
+				44EF118B1D9AA95700F2C873 /* MSTextfield.xib */,
+				4460295A1D9AB178009C3629 /* MSTextfield.swift */,
 			);
 			path = MSTextfield;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44EF11841D9AA7D400F2C873 /* LaunchScreen.storyboard in Resources */,
+				44EF118C1D9AA95700F2C873 /* MSTextfield.xib in Resources */,
 				44EF11811D9AA7D400F2C873 /* Assets.xcassets in Resources */,
 				44EF117F1D9AA7D400F2C873 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			files = (
 				44EF117C1D9AA7D400F2C873 /* ViewController.swift in Sources */,
 				44EF117A1D9AA7D400F2C873 /* AppDelegate.swift in Sources */,
+				4460295B1D9AB178009C3629 /* MSTextfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				44EF118A1D9AA7D400F2C873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
