@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44EF117A1D9AA7D400F2C873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF11791D9AA7D400F2C873 /* AppDelegate.swift */; };
+		44EF117C1D9AA7D400F2C873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF117B1D9AA7D400F2C873 /* ViewController.swift */; };
+		44EF117F1D9AA7D400F2C873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EF117D1D9AA7D400F2C873 /* Main.storyboard */; };
+		44EF11811D9AA7D400F2C873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EF11801D9AA7D400F2C873 /* Assets.xcassets */; };
+		44EF11841D9AA7D400F2C873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EF11821D9AA7D400F2C873 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44EF11761D9AA7D400F2C873 /* MSTextfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSTextfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EF11791D9AA7D400F2C873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44EF117B1D9AA7D400F2C873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44EF117E1D9AA7D400F2C873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44EF11801D9AA7D400F2C873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44EF11831D9AA7D400F2C873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44EF11851D9AA7D400F2C873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44EF11731D9AA7D400F2C873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44EF116D1D9AA7D400F2C873 = {
+			isa = PBXGroup;
+			children = (
+				44EF11781D9AA7D400F2C873 /* MSTextfield */,
+				44EF11771D9AA7D400F2C873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44EF11771D9AA7D400F2C873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44EF11761D9AA7D400F2C873 /* MSTextfield.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44EF11781D9AA7D400F2C873 /* MSTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				44EF11791D9AA7D400F2C873 /* AppDelegate.swift */,
+				44EF117B1D9AA7D400F2C873 /* ViewController.swift */,
+				44EF117D1D9AA7D400F2C873 /* Main.storyboard */,
+				44EF11801D9AA7D400F2C873 /* Assets.xcassets */,
+				44EF11821D9AA7D400F2C873 /* LaunchScreen.storyboard */,
+				44EF11851D9AA7D400F2C873 /* Info.plist */,
+			);
+			path = MSTextfield;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44EF11751D9AA7D400F2C873 /* MSTextfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44EF11881D9AA7D400F2C873 /* Build configuration list for PBXNativeTarget "MSTextfield" */;
+			buildPhases = (
+				44EF11721D9AA7D400F2C873 /* Sources */,
+				44EF11731D9AA7D400F2C873 /* Frameworks */,
+				44EF11741D9AA7D400F2C873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSTextfield;
+			productName = MSTextfield;
+			productReference = 44EF11761D9AA7D400F2C873 /* MSTextfield.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44EF116E1D9AA7D400F2C873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = me.sportillo;
+				TargetAttributes = {
+					44EF11751D9AA7D400F2C873 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 44EF11711D9AA7D400F2C873 /* Build configuration list for PBXProject "MSTextfield" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44EF116D1D9AA7D400F2C873;
+			productRefGroup = 44EF11771D9AA7D400F2C873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44EF11751D9AA7D400F2C873 /* MSTextfield */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44EF11741D9AA7D400F2C873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EF11841D9AA7D400F2C873 /* LaunchScreen.storyboard in Resources */,
+				44EF11811D9AA7D400F2C873 /* Assets.xcassets in Resources */,
+				44EF117F1D9AA7D400F2C873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44EF11721D9AA7D400F2C873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EF117C1D9AA7D400F2C873 /* ViewController.swift in Sources */,
+				44EF117A1D9AA7D400F2C873 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44EF117D1D9AA7D400F2C873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EF117E1D9AA7D400F2C873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44EF11821D9AA7D400F2C873 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EF11831D9AA7D400F2C873 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44EF11861D9AA7D400F2C873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44EF11871D9AA7D400F2C873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44EF11891D9AA7D400F2C873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MSTextfield/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.sportillo.MSTextfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		44EF118A1D9AA7D400F2C873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MSTextfield/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.sportillo.MSTextfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44EF11711D9AA7D400F2C873 /* Build configuration list for PBXProject "MSTextfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EF11861D9AA7D400F2C873 /* Debug */,
+				44EF11871D9AA7D400F2C873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44EF11881D9AA7D400F2C873 /* Build configuration list for PBXNativeTarget "MSTextfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EF11891D9AA7D400F2C873 /* Debug */,
+				44EF118A1D9AA7D400F2C873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44EF116E1D9AA7D400F2C873 /* Project object */;
+}
