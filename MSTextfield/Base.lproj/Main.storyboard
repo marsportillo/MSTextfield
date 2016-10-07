@@ -18,18 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wOv-LK-fsV">
-                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wOv-LK-fsV" customClass="MSTextfield" customModule="MSTextfield" customModuleProvider="target">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="69" id="9nS-Wi-xW5"/>
+                                    <constraint firstAttribute="height" constant="68" id="9nS-Wi-xW5"/>
                                     <constraint firstAttribute="width" constant="375" id="fWc-rD-zBg"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="iconBorder">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.80000000000000004" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="username"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="iconImage" value="user"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wOv-LK-fsV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Ze-2L-Hvu"/>
-                            <constraint firstItem="wOv-LK-fsV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vHM-xY-ZT1"/>
+                            <constraint firstItem="wOv-LK-fsV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-0.5" id="vHM-xY-ZT1"/>
                         </constraints>
                     </view>
                     <connections>
@@ -41,4 +50,7 @@
             <point key="canvasLocation" x="117.59999999999999" y="59.820089955022496"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="user" width="30" height="30"/>
+    </resources>
 </document>

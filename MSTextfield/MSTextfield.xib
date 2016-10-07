@@ -6,9 +6,17 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MSTextfield" customModule="MSTextfield" customModuleProvider="target">
+            <connections>
+                <outlet property="border" destination="NF8-v6-VVr" id="meb-96-7gA"/>
+                <outlet property="error" destination="0tc-dd-k1I" id="Wfb-uA-IuT"/>
+                <outlet property="icon" destination="Nii-7H-gw1" id="0Sg-fd-mUj"/>
+                <outlet property="textfield" destination="cEY-jC-7cu" id="MmY-J4-gtO"/>
+                <outlet property="title" destination="toE-nZ-Ocs" id="19g-vG-lH4"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="mOW-oP-9h9" customClass="MSTextfield" customModule="MSTextfield" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="mOW-oP-9h9">
             <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
@@ -72,13 +80,6 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <connections>
-                <outlet property="border" destination="NF8-v6-VVr" id="olJ-eK-yvv"/>
-                <outlet property="error" destination="0tc-dd-k1I" id="70C-9f-CTv"/>
-                <outlet property="icon" destination="Nii-7H-gw1" id="f5k-Z0-9ko"/>
-                <outlet property="textfield" destination="cEY-jC-7cu" id="7ke-Zm-GbE"/>
-                <outlet property="title" destination="toE-nZ-Ocs" id="Dur-XR-wsa"/>
-            </connections>
             <point key="canvasLocation" x="-129.5" y="-147"/>
         </view>
     </objects>

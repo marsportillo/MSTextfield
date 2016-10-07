@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443CFE941DA7D0FD008DD051 /* NibDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443CFE931DA7D0FD008DD051 /* NibDesignable.swift */; };
 		4460295B1D9AB178009C3629 /* MSTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460295A1D9AB178009C3629 /* MSTextfield.swift */; };
 		44EF117A1D9AA7D400F2C873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF11791D9AA7D400F2C873 /* AppDelegate.swift */; };
 		44EF117C1D9AA7D400F2C873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF117B1D9AA7D400F2C873 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		443CFE931DA7D0FD008DD051 /* NibDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibDesignable.swift; path = ../NibDesignable.swift; sourceTree = "<group>"; };
 		4460295A1D9AB178009C3629 /* MSTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSTextfield.swift; sourceTree = "<group>"; };
 		44EF11761D9AA7D400F2C873 /* MSTextfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSTextfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EF11791D9AA7D400F2C873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				44EF11821D9AA7D400F2C873 /* LaunchScreen.storyboard */,
 				44EF11851D9AA7D400F2C873 /* Info.plist */,
 				44EF118B1D9AA95700F2C873 /* MSTextfield.xib */,
+				443CFE931DA7D0FD008DD051 /* NibDesignable.swift */,
 				4460295A1D9AB178009C3629 /* MSTextfield.swift */,
 			);
 			path = MSTextfield;
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44EF117C1D9AA7D400F2C873 /* ViewController.swift in Sources */,
+				443CFE941DA7D0FD008DD051 /* NibDesignable.swift in Sources */,
 				44EF117A1D9AA7D400F2C873 /* AppDelegate.swift in Sources */,
 				4460295B1D9AB178009C3629 /* MSTextfield.swift in Sources */,
 			);
