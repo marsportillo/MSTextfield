@@ -19,15 +19,18 @@ class MSTextfield: NibDesignable, UITextFieldDelegate {
     @IBOutlet weak var error: UILabel!
     
     //Inspectable for icon
-    @IBInspectable var backgroundIcon: UIColor = UIColor.clear
+    @IBInspectable var iconBackground: UIColor = UIColor.clear
     @IBInspectable var iconImage:  UIImage = UIImage()
-
-    //Inspetacable for border
-    @IBInspectable var borderColor: UIColor = UIColor.red
     
     //Inspectable for textfield
     @IBInspectable var placeholder: String = ""
     @IBInspectable var placeholderColor: UIColor = UIColor.lightGray
+    
+    //Inspectable for  Title
+    @IBInspectable var titleLabel: String = ""
+    
+    //Inspectable for Error
+    @IBInspectable var errorColor: UIColor = UIColor.red
     
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -36,19 +39,34 @@ class MSTextfield: NibDesignable, UITextFieldDelegate {
         self.icon.image = iconImage
         self.textfield.placeholder = placeholder
         
-        self.icon.backgroundColor = backgroundIcon
-        self.textfield.attributedPlaceholder = NSAttributedString(string:placeholder,
-                                                               attributes:[NSForegroundColorAttributeName:placeholderColor])
-        self.border.backgroundColor = borderColor
+        self.icon.backgroundColor = iconBackground
+        self.textfield.attributedPlaceholder = NSAttributedString(string:placeholder, attributes:[NSForegroundColorAttributeName:placeholderColor])
         
+        self.title.text = placeholder
+        if(titleLabel.isEmpty) {
+            self.title.text = placeholder
+        }
+        else {
+            self.title.text = titleLabel
+        }
+        
+        self.error.textColor = errorColor
     }
     
     override public func prepareForInterfaceBuilder() {
-        self.border.backgroundColor = borderColor
         self.icon.image = iconImage
         self.textfield.placeholder = placeholder
-        self.icon.backgroundColor = backgroundIcon
-        self.textfield.attributedPlaceholder = NSAttributedString(string:placeholder,
-                                                                  attributes:[NSForegroundColorAttributeName:placeholderColor])
+        self.icon.backgroundColor = iconBackground
+        self.textfield.attributedPlaceholder = NSAttributedString(string:placeholder, attributes:[NSForegroundColorAttributeName:placeholderColor])
+       
+        if(titleLabel.isEmpty) {
+            self.title.text = placeholder
+        }
+        else {
+            self.title.text = titleLabel
+        }
+        
+        self.error.textColor = errorColor
     }
+    
 }

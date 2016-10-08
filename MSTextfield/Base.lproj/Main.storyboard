@@ -30,14 +30,15 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                         <color key="value" red="0.0" green="0.43137254899999999" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Last Name"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Last name"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconImage" value="user"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="backgroundIcon">
                                         <color key="value" red="1" green="0.80000000000000004" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.92941176469999998" green="0.10980392160000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.82745098039999998" green="0.83529411760000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleLabel" value="Cognome"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
